@@ -1,0 +1,50 @@
+@media all and (min-width: 1080px) {
+    .productDesc {
+        margin-top: 20px;
+    }
+}
+
+.productDesc {
+    text-align: justify;
+}
+
+.similarProducts {
+    margin-top: 20px;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #555555;
+    color: black;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #265a88;
+}
+
+.footerLinks {
+    float: right;
+}
+
+.footerLinks a {
+    margin-left: 20px;
+    color: white;
+}
+
+@media all and (max-width: 767px) {
+    .footerLinks {
+        float: left;
+    }
+
+    .footerLinks a {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+}
